@@ -1,0 +1,20 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+/* src/assets/fonts/CustomFont.ttf */
+@font-face {
+  font-family: 'Clash Display';
+  src: url('../public/OTF/ClashDisplay-Medium.otf') format('truetype'); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+

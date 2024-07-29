@@ -1,0 +1,189 @@
+.second-main {
+  display: flex;
+  width: 91%;
+  margin-left: auto;
+  overflow: hidden;
+}
+.left-img {
+  position: relative;
+  width: 50%;
+}
+.feature-img-sec {
+  margin-bottom: 0.5pc;
+}
+
+
+/* for the long para  */
+@font-face {
+  font-family: 'ClasHDisplay';
+  src: url('../../../public/OTF/ClashDisplay-Semibold.otf') format('truetype'); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.para-container-hello{
+  margin: 1pc auto;
+}
+.logo-sec-hello{
+  display: flex;
+align-items: center;
+font-family: "ClasHDisplay";
+}
+.logo-img-hello{
+  display: flex;
+  margin-right: 0.5pc;
+}
+.logo-img-hello img{
+width: 80%;
+
+}
+.logo-txt-hello{
+  font-size: 2vw;
+}
+
+
+
+
+
+
+
+.right-txt {
+  width: 60%;
+  position: relative;
+  border: none;
+}
+.grandss {
+  top: 0;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  transform: rotate(180deg);
+}
+.grandss1 {
+  z-index: -2;
+  position: absolute;
+  top: 0;
+  right: -40%;
+}
+.grandss22 {
+  position: absolute;
+  top: 13%;
+  transform: rotate(-90deg);
+  width: 8%;
+  left: -1.5%;
+}
+
+/* editing the circles  */
+.circles {
+  position: absolute;
+  left: -3%;
+}
+
+.mobR {
+  left: 25%;
+  position: absolute;
+  width: 70%;
+  height: auto;
+  top: 8%;
+}
+
+/* adding the heading styles  */
+.main-heading22 {
+  font-family: "ClashDiisplay", sans-serif;
+  max-width: 618px;
+  max-height: 128px;
+  font-size: 3.8vw;
+  line-height: 50px;
+  color: black;
+  font-weight: 1000 !important;
+}
+@font-face {
+  font-family: "ClashDiisplay";
+  src: url("../../../public/OTF/ClashDisplay-Bold.otf") format("truetype"); /* Adjust the path as needed */
+}
+
+/* making the reposnsive for the tablet  */
+
+@media screen and (max-width: 800px) {
+  .second-main {
+    /* flex-direction: column; */
+    overflow: visible;
+    flex-direction: column;
+    align-items: center;
+    margin: 3pc auto;
+    width: 85%;
+  }
+  .grandss1,
+  .grandss22 {
+    display: none;
+  }
+  .left-img {
+    height: 390px;
+    width: 70%;
+  }
+  .dispara {
+    display: none;
+  }
+  .right-txt {
+    width: 100%;
+  }
+  .right-txt-data {
+    margin-top: 2pc;
+  }
+
+}
+
+@media screen and (max-width: 655px) {
+  .right-txt {
+    margin-top: 0 !important;
+  }
+  .main-heading22 {
+    font-size: 6vw;
+  }
+  .para-container-hello .logo-txt {
+    font-size: 3vw !important;
+  }
+  .para-container-hello {
+    margin: 1pc 0;
+    margin-top: 1pc;
+  }
+}
+@media screen and (max-width: 500px) {
+  .right-txt {
+    margin-top: 0 !important;
+  }
+  .left-img {
+    height: 310px;
+  }
+}
+@media screen and (max-width: 425px) {
+    .second-main{
+  margin:0 auto !important;
+    }
+ .logo-txt-hello {
+    font-size: 5vw !important;
+  }
+  .left-img {
+    height: 217px;
+  }
+
+}
+@media screen and (max-width: 375px) {
+.second-main{
+  padding-bottom: 3pc;
+}
+
+  .left-img {
+    height: 276px;
+    width: 100%;
+  }
+  .main-heading22{
+    font-size: 10vw ;
+  }
+  .logo-txt-hello{
+    font-size: 6vw !important;
+  }
+  
+  .circles{
+    min-width: 100%;
+  }
+}

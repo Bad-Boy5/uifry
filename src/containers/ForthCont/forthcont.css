@@ -1,0 +1,67 @@
+.left-img2{
+    max-width: 791px;
+}
+.left-img2 .img-cont .main-image-mob2{
+    display: none;
+}
+.left-img2 .img-cont .main-image-mob3{
+    display: flex;
+}
+.second-main{
+    position: relative;
+}
+
+.grands{
+    position:absolute;
+width: 100%;
+top: 28%;
+z-index:-150;
+}
+.blackst{
+width: 8%;
+    position:absolute;
+top: 0%;
+transform: rotate(45deg);
+}
+.blackst2{
+width: 10%;
+    position:absolute;
+bottom:0%;
+left: 60% ;
+}
+
+/* making the crcles section or the thris fourth section 0 */
+.circless{
+    position: absolute;
+     width: 100%;
+     right: 10%;
+     /* max-height: 100%; */
+ }
+ .iphonee2222{
+     left: 17%;
+     top: 8%;
+     width: 70%;
+     /* max-height: 100%; */
+ }
+ .iphoneelll{
+     width:45%;
+     top: 30.9%;
+     left: 29%;
+     /* max-height: 100%; */
+ }
+ .iphonee2{
+     width:70%;
+     top: 9%;
+     right: 12%;
+     /* max-height: 100%; */
+     display: none;
+     
+ }
+ 
+
+
+ @media screen and (max-width: 1325px){
+.iphoneelll{
+    display: none;
+}
+}

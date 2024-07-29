@@ -1,0 +1,16 @@
+.main-heading{
+    font-family:'ClashDiisplay',sans-serif;
+max-width: 618px;
+    max-height: 128px;
+    font-size: 3.8vw;
+    line-height: 50px;
+    color:black;
+    font-weight: 1000 !important;
+}
+@font-face {
+    font-family: 'ClashDiisplay';
+    src: url('../../../public/OTF/ClashDisplay-Bold.otf') format('truetype'); /* Adjust the path as needed */
+
+  }
+  
+  

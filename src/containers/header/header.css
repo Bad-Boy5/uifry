@@ -1,0 +1,17 @@
+.header{
+    margin-top: 2pc;
+}
+@media screen and (max-width: 768px){
+    .header{
+        margin-top:1pc;
+        margin-bottom:2pc;
+    }
+
+}
+@media screen and (max-width: 375px){
+    .header{
+        margin-top:0pc;
+        margin-bottom:3pc;
+    }
+
+}

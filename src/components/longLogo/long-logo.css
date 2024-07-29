@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ClasHDisplay';
+    src: url('../../../public/OTF/ClashDisplay-Semibold.otf') format('truetype'); /* Adjust the path as needed */
+    font-weight: normal;
+    font-style: normal;
+  }
+.para-container{
+    margin: 1pc auto;
+}
+.logo-sec{
+    display: flex;
+align-items: center;
+font-family: "ClasHDisplay";
+}
+.logo-img{
+    display: flex;
+    margin-right: 0.5pc;
+}
+.logo-img img{
+width: 80%;
+}

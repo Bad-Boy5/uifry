@@ -1,0 +1,36 @@
+@font-face {
+  font-family: "Clash Display";
+  src: url("../../../public/OTF/ClashDisplay-Semibold.otf") format("truetype"); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Clash Displayy";
+  src: url("../../../public/OTF/ClashDisplay-Light.otf") format("truetype"); /* Adjust the path as needed */
+  font-weight: normal;
+  font-style: normal;
+}
+.card {
+  font-family: "Clash Display";
+  max-height: 181px;
+  border-radius: 8px;
+  padding: 30px 20px 20px 30px;
+}
+.heading-card {
+  font-size: 2vw;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 0.5pc;
+}
+
+.para-card {
+  font-size: 1.5vw;
+  line-height: 28px;
+  font-weight: 500;
+  margin-bottom: 0.5pc;
+  font-family: "Clash Displayy";
+  opacity: 0.9;
+}
+.card-data {
+  width: 85%;
+}

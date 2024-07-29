@@ -1,0 +1,42 @@
+.image-section{
+    height: 100%;
+    background-size:120%;
+    background-position-x: center;
+    background-position-y: -3pc;
+    z-index: -2;
+      height: 725.49px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.image-section{
+    max-width: 100%;
+    position: relative;
+}
+.img0 {
+    position: absolute;
+    width: 100%;
+    left: -2pc;
+    z-index: -2;
+    top: -3pc;
+}
+.img1 {
+    position: absolute;
+    width: 85%;
+    z-index: 5;
+    top:-3.55pc;
+    right: 13pc;
+}
+.img2{
+    position: absolute;
+ width: 85%;
+ z-index: 4;
+ top: 1pc;
+
+}
+.img3 {
+    position: absolute;
+    width: 70%;
+    z-index: 3;
+    top: 5.58pc;
+    left: 8pc;
+}

@@ -1,0 +1,138 @@
+.nav_bar{
+    width: 81.9%;
+    margin: auto;
+    display: flex;
+    min-height: 60px;
+}
+.left-sec{
+    display: flex;
+    width: 60%;
+    align-items: center;
+}
+.main-img{
+margin-right: 2pc !important ;    
+}
+.right-sec{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 40%; 
+}
+.right-sec button .btn-img{
+    padding: 0;
+    margin: 0;
+    
+}
+/* adding the list styles */
+.ul-list{
+    display: flex;
+    align-items: center;
+}
+.ul-list li {
+    list-style: none;
+    padding-right: 1.5pc;
+    font-weight: 400;
+    font-size: 16px;
+        line-height: 26px;
+        font-family: "Clash Display";
+    cursor: pointer;
+    
+}
+
+
+/* adding button styles  */
+.btn1122{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    color: white;
+    background-color: black ;
+    display: flex;
+    justify-content: center;
+ align-items: center;
+    border-radius: 4px;
+    height: 100%;
+     padding:0 50px;
+     cursor: pointer;
+     transition: all ease-in-out 0.3s;
+     border: 1px solid black;
+    
+    }
+    .btn:hover{
+        background-color: white;
+        color: black;
+        border:1px solid #FF5555;
+    }
+
+
+    @media screen and (max-width: 1024px){
+       .ul-list li{
+        font-size: 2vw;
+        white-space: nowrap;
+       }
+       .main-img img{
+     min-width: 100%;   
+    }
+       .main-img {
+     min-width: 20%;   
+    }
+       .btn1122{
+        height: 50px;
+        padding: 0 35px;
+       }
+    }
+    
+    @media screen and (max-width: 830px){
+        /* .nav_bar{
+            z-index: 200;
+  align-items: start;
+  background-color:white;
+  flex-direction: column;
+            height: 100vh ;
+            padding-left:1pc;
+            width: 50%;
+            position: fixed;
+            
+        } */
+        .h-nav{
+          
+            height: 60px ;
+            
+         }
+         /*
+        .right-sec{
+            width: 100%;
+            justify-content: start;
+        }
+        .ul-list {
+            flex-direction: column;
+            display: none;
+
+        }
+        .left-sec{
+            flex-direction: column;
+        align-items: start;
+        }
+        .ul-list li{
+            padding-bottom: 2pc;
+            width: 100%;
+            padding-top: 1pc;
+        } */
+.ul-list{
+    display: none;
+}
+    }
+    
+        @media screen and (max-width: 450px){
+          
+            .left-sec{
+                width: 100%;
+                justify-content: center;
+            }
+     .btn{
+        display: none;
+     }
+     .right-sec{
+        display: none;
+     }
+        }

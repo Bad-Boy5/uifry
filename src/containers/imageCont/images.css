@@ -1,0 +1,34 @@
+.img-cont{ 
+    width:90%;
+    position: relative;
+    display: flex;
+    align-items: center;
+ justify-content: center;
+ height: 719px;
+}
+.main-image{
+width: 120%;
+    position: absolute;
+    right:-1pc;
+    top:-1pc;
+}
+.main-image-mob{
+    position: absolute;
+    width:82% !important;
+left: 5pc;
+top: 2.55pc;
+}
+.main-image-mob2{
+    z-index: 5;
+    position: absolute;
+    bottom: 19.5pc;
+    right: 2pc;
+    display: none;
+}
+.main-image-mob3{
+    z-index: 5;
+    position: absolute;
+    bottom: 22.5pc;
+    left: 9pc;
+    display: none;
+}

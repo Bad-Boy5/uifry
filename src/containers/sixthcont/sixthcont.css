@@ -1,0 +1,133 @@
+.card-container{
+    width: 82%;
+    margin: auto;
+    margin-top: 8pc;
+}
+.heading-sec{
+    margin-bottom: 2pc;
+    position: relative;
+}
+.card-section{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.card-right{
+    width: 49%;
+}
+.card-left{
+    width: 49%;
+}
+.sup .card{
+    background-color:#FF5555 ;
+    color: white;
+}
+.sup .card .para-card{
+    opacity: 1;
+}
+.sup2 .card{
+    margin: 0.5pc 0;
+
+}
+.blacksyt{
+    position: absolute;
+    left: 56%;
+    bottom: 1%;
+}
+
+
+
+@media screen and (max-width: 1075px){
+    .blacksyt{
+        display: none;
+    }
+    .blackstt{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px){
+   .card-right{
+    display: none;
+   }
+   .card-left{
+    width: 100%;
+   }
+   .card-left .card {
+    margin-top: 1pc;
+   }
+   .card .heading-card{
+    font-size: 2.9vw;
+   }
+   .main-heading{
+    line-height: normal !important;
+   }
+   .para-card{
+    font-size: 2.5vw;
+   }
+}
+@media screen and (max-width: 900px){
+    
+   
+
+   .card .heading-card{
+    font-size: 3vw;
+   }
+   .card-data{
+    width: 100%;
+   }
+   .main-heading{
+    line-height: normal !important;
+
+   }
+   .heading-card{
+    line-height: normal;
+   }
+   .para-card{
+    font-size: 2.5vw;
+   }
+}
+
+@media screen and (max-width: 768px){
+.para-card{
+    font-size: 3vw;
+}
+.heading-card{
+font-size:3.5vw ;
+}
+
+}
+
+@media screen and (max-width: 425px){
+ 
+   .main-heading{
+    font-size: 8vw !important;
+   }
+   .card-data{
+    width: 100%;
+   }
+   .main-heading{
+    line-height: normal !important;
+}
+.card .heading-card{
+       font-size: 5vw;
+    line-height: normal;
+   }
+   .para-card{
+    font-size: 3.5vw;
+   }
+}
+
+
+@media screen and (max-width: 375px){
+
+.para-card{
+    line-height: normal;
+    font-size: 4.5vw;
+    opacity: 1;
+}
+.card .heading-card{
+    font-size: 6vw;
+}
+    
+}

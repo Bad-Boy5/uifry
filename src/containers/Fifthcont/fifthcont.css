@@ -1,0 +1,170 @@
+.main-section-c{
+    width: 91%;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.right1234{
+    max-width: 85%;
+    margin-top: 0pc;
+    padding-top: 0pc;
+}
+
+.right1234 .para-container .logo-txt{
+font-size:2.5vw;
+line-height: 38px;
+margin-bottom: 0.5pc;
+}
+.labels-images{
+    margin: 2pc 0 1.5pc 0;
+}
+.right-txt{
+    display: flex;
+    justify-content: center;
+    padding-top: 0;
+}
+
+.blackstt{
+    position: absolute;
+ top:600%;
+ left: -8%;
+}
+
+
+.review{
+    top: 13%;
+    left: 12%;
+}
+.right1234 .logo-sec .logo-img{
+    display: none !important;
+}
+
+
+@media screen and (max-width: 1050px){
+    .second-main-with-react{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 8pc;
+    }
+    .right-txt{
+        margin: 0;
+        width: 100%;
+    }
+    
+    .logo-sec .logo-txt{
+        font-size: 3vw !important;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .left-img{
+        overflow: hidden;
+    }
+    .circulum{
+        width: 100%;
+        position: absolute;
+        top: -21%;
+        right: 6%;
+    }
+    .review {
+        top: -7%;
+        left: 6%;
+        width: 100%;
+    }
+
+    .main-section-c{
+        width: 100%;
+    }
+    .headingcontainer{
+        width: 100% !important;
+    }
+    .right-txt {
+        display: flex;
+        justify-content: center;
+        padding-top: 6pc;
+    }
+    
+}
+
+@media screen and (max-width: 680px){
+    
+    .right-txt {
+        display: flex;
+        justify-content: center;
+        padding-top: 0pc;
+    }
+
+    
+    .logo-sec .logo-txt{
+        font-size: 4vw !important;
+    }
+
+}
+@media screen and (max-width: 580px){
+    
+    
+
+    .logo-sec .logo-txt{
+        font-size: 5vw !important;
+    }
+}
+@media screen and (max-width: 425px){
+    
+    .left-img{
+        margin-bottom: 2pc;
+
+    }
+    .circulum{
+        width: 100%;
+        position: absolute;
+        top: -21%;
+        right: 6%;
+    }
+    .review {
+        top: -7%;
+        left: 6%;
+        width: 100%;
+    }
+    .labels-images{
+        margin-top: 2pc;
+        margin-bottom:2pc;
+    }
+}
+@media screen and (max-width: 375px){
+    .right1234 .logo-sec .logo-txt{
+         width: 100% !important;
+         font-size: 8vw !important;
+         line-height: normal !important;
+    
+     }
+    
+    
+    .review{
+        top: 13%;
+        left: 22%;
+        width: 77%;
+    }
+    .logo-sec .logo-txt{
+        font-size: 6vw !important;
+    }
+    .circulum{
+        width: 100%;
+        position: absolute;
+        top: -21%;
+        right: 6%;
+    }
+    .review {
+        top: -7%;
+        left: 6%;
+        width: 100%;
+    }
+
+}

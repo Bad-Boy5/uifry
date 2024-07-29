@@ -1,0 +1,111 @@
+.second-main-2{
+    margin-top: 4pc !important;
+}
+
+
+.right-txt-data .para-container .logo-txt{
+    font-size: 2vw;
+}
+.right-txt-data .para-container{
+    margin-top: 2pc;
+}
+.right-txt-data p{
+    width: 85%;
+}
+.right-txt {
+    margin-top: 6pc ;
+}
+
+.left-img{
+position: relative;
+display: flex;
+}
+.left-img .img-cont .main-image-mob2{
+display: block;
+}
+.Advan-img-sec{
+    padding-top: 6pc ;
+    padding-bottom: 1pc;
+}
+.right123{
+    padding-top: 6pc;
+}
+.grand{
+    position: absolute;
+    z-index: -150;
+}
+.sec-main-2{
+    position: relative;
+    overflow: visible;
+    margin:4pc auto;
+}
+.blackst1234{
+    position: absolute;
+    top: 0;
+    right: -4%;
+}
+
+.for-the-third{
+    max-height: 719px;
+}
+
+/* making the crcles section or the thris fourth section 0 */
+.circless{
+   position: absolute;
+    width: 100%;
+    right: 10%;
+    /* max-height: 100%; */
+}
+.iphonee{
+    left: 17%;
+    top: 8%;
+    width: 70%;
+    /* max-height: 100%; */
+}
+.iphoneell{
+
+    width:50%;
+    top: 49.9%;
+    right: 12%;
+    /* max-height: 100%; */
+}
+.iphonee2{
+    width:70%;
+    top: 9%;
+    right: 12%;
+    /* max-height: 100%; */
+    display: none;
+}
+
+
+
+
+/* makint the third container resp for the tab */
+@media screen and (max-width: 1325px){
+    .iphoneell{
+        display: none;
+    }
+    .iphonee{
+        display: none;
+    }
+    .iphonee2{
+        display: block !important;
+    }
+    .right123{
+        padding-top: 0;
+    }
+    .blackst1234{
+        display: none;
+    }
+}
+@media screen and (max-width: 800px){
+.sec-main-2{
+    flex-direction: column-reverse;
+}
+.right-txt-data p{
+    width: 100%;
+}
+.blackst2{
+    display: none;
+}
+}
